@@ -1,0 +1,16 @@
+services:
+  fom-page:
+    build: .
+    ports:
+      - '5173:5173'
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: npm run dev -- --host
+  php-backend:
+    image: php:7.4-apache
+    container_name: php-backend
+    volumes:
+      - .:/var/www/html
+    ports:
+      - '8000:80'
