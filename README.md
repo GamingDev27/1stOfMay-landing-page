@@ -22,8 +22,8 @@ Designed to showcase the 1stOfMay's brand, drive conversions, and provide a seam
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-org/clientname-landing.git
-cd clientname-landing
+git clone https://github.com/GamingDev27/1stOfMay-landing-page.git
+cd fom-landing-page
 npm install
 npm run dev
 npm run build
